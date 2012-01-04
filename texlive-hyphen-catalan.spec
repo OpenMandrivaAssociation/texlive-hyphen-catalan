@@ -44,12 +44,12 @@ Hyphenation patterns for Catalan in T1/EC and UTF-8 encodings.
 %install
 mkdir -p %{buildroot}%{_texmf_language_dat_d}
 cat > %{buildroot}%{_texmf_language_dat_d}/hyphen-catalan <<EOF
-%% from hyphen-catalan:
+\%\% from hyphen-catalan:
 catalan loadhyph-ca.tex
 EOF
 mkdir -p %{buildroot}%{_texmf_language_def_d}
 cat > %{buildroot}%{_texmf_language_def_d}/hyphen-catalan <<EOF
-%% from hyphen-catalan:
+\%\% from hyphen-catalan:
 \addlanguage{catalan}{loadhyph-ca.tex}{}{2}{2}
 EOF
 mkdir -p %{buildroot}%{_texmf_language_lua_d}
