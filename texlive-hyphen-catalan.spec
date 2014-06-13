@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-hyphen-catalan
 Version:	20120611
-Release:	5
+Release:	6
 Summary:	Catalan hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
