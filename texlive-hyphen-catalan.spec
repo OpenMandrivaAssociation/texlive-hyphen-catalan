@@ -1,6 +1,6 @@
 Name:		texlive-hyphen-catalan
 Version:	58609
-Release:	1
+Release:	2
 Summary:	Catalan hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
